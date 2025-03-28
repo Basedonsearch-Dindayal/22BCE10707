@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Api</title>
+</head>
+<body>
+    <h2>User list</h2>
+    <%= (for user in userlist.users){ %>
+    <p><b>id:</b><%= user[1] %></p>
+    <p><b>user:</b><%= user[2] %></p>
+    <%= } %>
+</body>
+</html>
